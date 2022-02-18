@@ -19,10 +19,6 @@ const StyledPrintCharacter = styled.div`
         font-weight: normal;
         letter-spacing: .2rem;
     }
-
-    &::after {
-        content: `${pr => pr.character.birth_year}`;
-    }
 `
 
 const PrintCharacter = (props) => {
